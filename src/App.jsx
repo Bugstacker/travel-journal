@@ -8,9 +8,10 @@ import './App.css'
 function App() {
 
   const dataEl = data.map( dest => {
+    console.log(dest)
     return (
-      <Destination 
-        key="dest.id"
+      <Destination
+        key={dest.id}
         {...dest} // spread the object to pass it as a prop
       />
     )

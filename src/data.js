@@ -1,6 +1,6 @@
 export default [
   {
-      id: 1,
+      id: 0.001,
       title: "Source of River Nile",
       location: "Jinja, Uganda",
       googleMapsUrl: "https://goo.gl/maps/bGU3UCfuBQHWbDEi7",
@@ -11,7 +11,7 @@ export default [
   },
 
   {
-    id: 2,
+    id: 0.002,
     title: "Murchison Falls",
     location: "Uganda",
     googleMapsUrl: "https://goo.gl/maps/A9eE5LcU2VMtVcpu9",
@@ -22,7 +22,7 @@ export default [
   },
 
   {
-    id: 3,
+    id: 0.003,
     title: "Ssezibwa Falls",
     location: "Uganda",
     googleMapsUrl: "https://goo.gl/maps/ZvShSbRFdfxuzFzRA",
@@ -33,7 +33,7 @@ export default [
   },
 
   {
-    id: 4,
+    id: 0.004,
     title: "Queen Elizabeth National Park",
     location: "Japan",
     googleMapsUrl: "https://goo.gl/maps/XPbypAuwbDNp6pKn9",
@@ -41,5 +41,5 @@ export default [
     endDate: "24 Jan, 2021",
     description: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
     imageUrl: "https://images.unsplash.com/photo-1551357246-c498fd5f4966?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-  },
+  }
 ]
