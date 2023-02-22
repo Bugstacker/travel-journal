@@ -1,0 +1,58 @@
+.dest {
+  width: 95%;
+  padding: 2.5em;
+  margin: 0 auto;
+  border-bottom: 1px solid #F5F5F5;
+  display: flex;
+  gap: 1em;
+}
+
+.dest--img {
+  width: 100%;
+  border-radius: 5px;
+  max-width: 125px;
+  object-fit: cover;
+}
+
+.dest--loc {
+  display: flex;
+  place-items: center;
+  margin-bottom: 0;
+}
+
+.dest--loc_country {
+  margin-left: 4px;
+  margin-right: 12px;
+  letter-spacing: .17em;
+  text-transform: uppercase;
+}
+
+.dest--loc_country,
+.dest--loc > a,
+.dest--details {
+  font-size: .625rem;
+}
+
+.dest--loc_img {
+  width: 7px;
+  height: 9.55px;
+}
+
+.dest--loc > a {
+  color: #918E9B;
+  text-decoration: underline;
+}
+
+.dest--title {
+  line-height: 1.875em;
+  margin-block: .25em;
+}
+
+.date {
+  margin-bottom: 0;
+}
+
+.dest--details {
+  line-height: 150%;
+  margin-top: .56em;
+}

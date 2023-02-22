@@ -1,0 +1,13 @@
+/* media queries */
+
+@media(min-width: 620px) {
+  section.destinations {
+    display: flex;
+    flex-wrap: wrap;
+    place-items: flex-start;
+  }
+
+  .dest {
+    flex: 0 0 470px;
+  }
+}
