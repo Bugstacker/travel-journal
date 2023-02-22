@@ -8,7 +8,7 @@ import './App.css'
 function App() {
 
   const dataEl = data.map( dest => {
-    console.log(dest)
+    
     return (
       <Destination
         key={dest.id}
